@@ -1,3 +1,3 @@
 def square_array(array)
-  # your code here
-end
+    array.each_with_index {|x, index| array[index] = x ** 2}
+  end
